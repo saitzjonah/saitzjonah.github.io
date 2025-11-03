@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -20,8 +20,8 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "Home"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Jonah Saitz"
+description              : "Robotics & Mechatronics Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -68,7 +68,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
@@ -119,7 +119,7 @@ collections:
 # Site Author
 author:
   name             : "Jonah Saitz"
-  avatar           : "/assets/images/soe_logo.jpg"
+  avatar           : "/assets/images/blank_profile.jpg"
   bio              : Design Engineering<br> @ Brown University<br> <a href="https://engineering.brown.edu" target="_blank" rel="noopener"><u>School of Engineering</u></a>
 
   location         : "Providence, RI"
@@ -127,7 +127,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.name@email.com"
+      url: "mailto:jonah.bellinsaitz@gmail.com"
     # - label: "Website"
       # icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -139,13 +139,13 @@ author:
       # url: "https://facebook.com/"
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
-      url: "https://linkedin.com/"
+      url: "https://linkedin.com/in/saitzjonah"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com"
+      url: "https://www.instagram.com/saitzjonah"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/saitzjonah"
     # - label: "Instagram"
       # icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -168,13 +168,13 @@ footer:
       # url:    
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
-      url: "https://linkedin.com/"
+      url: "https://linkedin.com/in/saitzjonah"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com"
+      url: "https://www.instagram.com/saitzjonah"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/saitzjonah"
   since: "2025"
 
 

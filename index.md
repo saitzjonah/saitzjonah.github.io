@@ -3,6 +3,7 @@ title: "Jonah Saitz"
 layout: splash
 permalink: /
 header:
+    overlay_image: /assets/images/pcb_fab.jpg
     overlay_color: "#000"
     overlay_filter: "0.5"
     actions:
@@ -13,22 +14,22 @@ intro:
     - excerpt: "Check out my most recent projects!"
 
 feature_row:
-  - image_path: /assets/splash/feat1-1.jpg
-    title: "Project 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+  - image_path: /assets/images/sayles.jpg
+    title: "Coming soon!"
+    excerpt: "Here's a brief project description with **Markdown** formatting."
+    url: "/projects/project3/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/splash/feat1-2.jpg
-    title: "Project 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+  - image_path: /assets/images/brownu.jpg
+    title: "Coming soon!"
+    excerpt: "Here's a brief project description with **Markdown** formatting."
+    url: "/projects/project2/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/splash/feat1-3.jpg
-    title: "Project 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+  - image_path: /assets/images/brown_fb.jpg
+    title: "Coming soon!"
+    excerpt: "Here's a brief project description with **Markdown** formatting."
+    url: "/projects/project1/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 # author_profile: true

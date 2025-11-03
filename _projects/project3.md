@@ -1,14 +1,15 @@
 ---
-title: "Project 3"
-date: 2025-08-31
-exercpt: "Description of Project 3"
+title: "Coming soon!"
+date: 2025-10-31
+exercpt: "Project description:"
 header:
     overlay_image: /assets/images/project-header.jpg
+    teaser: /assets/images/brown_fb.jpg
     overlay_filter: 0.5
     caption: "Photo credit: Unsplash"
-    show_overlay_excerpt: true
+    show_overlay_excerpt: false
 layout: single
 #    overlay_image:
 #    teaser: 
 ---
-Detailed write-up of the project...
+Detailed project write-up:

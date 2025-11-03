@@ -1,0 +1,49 @@
+.archive__item-teaser {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: #f8f8f8;    
+}
+
+.archive__item-teaser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;           /* crop images without distortion */
+  display: block;
+  transition: transform 0.3s ease;  /* optional hover effect */
+}
+
+.archive__item:hover .archive__item-teaser img {
+  transform: scale(1.05);      /* subtle zoom on hover */
+}
+
+/* Keep all cards equal height for alignment */
+.archive__item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.archive__grid {
+  align-items: stretch;
+}
+
+.archive .grid__item a {
+  color: #b60000;
+}
+
+.page__inner-wrap .pagination a,
+.page__inner-wrap .pagination .previous,
+.page__inner-wrap .pagination .next {
+  color: #b60000;
+}
+
+.page__inner-wrap .pagination a:hover,
+.page__inner-wrap .pagination .previous:hover,
+.page__inner-wrap .pagination .next:hover {
+  color: white;
+}

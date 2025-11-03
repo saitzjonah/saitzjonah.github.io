@@ -1,14 +1,15 @@
 ---
-title: "Project 4"
-date: 2025-09-30
-exercpt: "Description of Project 4"
+title: "Coming soon!"
+date: 2025-11-1
+exercpt: "Project description"
 header:
-    overlay_image: /assets/images/project-header.jpg
+    overlay_image: /assets/images/
+    teaser: /assets/images/brownu.jpg
     overlay_filter: 0.5
     caption: "Photo credit: Unsplash"
-    show_overlay_excerpt: true
+    show_overlay_excerpt: false
 layout: single
 #    overlay_image:
 #    teaser: 
 ---
-Detailed write-up of the project...
+Detailed project write-up: 
