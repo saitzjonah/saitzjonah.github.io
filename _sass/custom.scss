@@ -36,14 +36,21 @@
   color: #b60000;
 }
 
-.page__inner-wrap .pagination a,
-.page__inner-wrap .pagination .previous,
-.page__inner-wrap .pagination .next {
-  color: #b60000;
+/* Change pagination link colors */
+.pagination--pager {
+  color: #b60000 !important;
 }
 
-.page__inner-wrap .pagination a:hover,
-.page__inner-wrap .pagination .previous:hover,
-.page__inner-wrap .pagination .next:hover {
-  color: white;
+/* Optional: hover color if you want a different shade on hover */
+.pagination--pager:hover {
+  color: white !important;
+}
+
+/* Keep disabled ones gray */
+.pagination--pager.disabled {
+  color: gray !important;
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.6;
+  text-decoration: none;
 }
