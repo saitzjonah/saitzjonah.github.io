@@ -8,3 +8,11 @@
 <script src="{{ '/assets/js/lunr/lunr.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/lunr/lunr-store.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/lunr/lunr-' | append: lang | append: '.js' | relative_url }}"></script>
+<!-- reverse search order (newest at top)-->
+{% for post in site.posts reversed %}
+{
+  "title": "{{ post.title | escape }}",
+  "url": "{{ post.url }}",
+  "content": "{{ post.content | strip_html | escape }}"
+},
+{% endfor %}

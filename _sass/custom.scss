@@ -17,9 +17,9 @@
   transition: transform 0.3s ease;  /* optional hover effect */
 }
 
-.archive__item:hover .archive__item-teaser img {
-  transform: scale(1.05);      /* subtle zoom on hover */
-}
+/* .archive__item:hover .archive__item-teaser img {
+  transform: scale(1.05);      subtle zoom on hover
+} */
 
 /* Keep all cards equal height for alignment */
 .archive__item {
@@ -34,6 +34,10 @@
 
 .archive .grid__item a {
   color: #b60000;
+}
+
+.archive__item-title a {
+  color: #b60000 !important;
 }
 
 /* Change pagination link colors */
@@ -53,4 +57,17 @@
   pointer-events: none;
   opacity: 0.6;
   text-decoration: none;
+}
+
+/* Center the header and search box */
+.page-header,
+.search-box {
+  text-align: center;
+}
+
+/* Center search results if they are in a list or divs */
+.search-results {
+  display: flex;
+  flex-direction: column; /* stack results vertically */
+  align-items: center;    /* center horizontally */
 }
