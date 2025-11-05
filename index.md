@@ -14,19 +14,19 @@ intro:
     - excerpt: "Check out my most recent projects!"
 
 feature_row:
-  - image_path: /assets/images/sayles.jpg
-    title: "Coming soon!"
-    excerpt: "Here's a brief project description with **Markdown** formatting."
-    url: "/projects/project3/"
+  - image_path: /assets/images/projects/homepage.jpg
+    title: "Portfolio Project"
+    excerpt: "Building My Robotics & Mechatronics Portfolio with **Jekyll** and **GitHub Pages**."
+    url: "/projects/portfolio-project/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/brownu.jpg
+  - image_path: /assets/images/sayles.jpg
     title: "Coming soon!"
     excerpt: "Here's a brief project description with **Markdown** formatting."
     url: "/projects/project2/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/brown_fb.jpg
+  - image_path: /assets/images/brownu.jpg
     title: "Coming soon!"
     excerpt: "Here's a brief project description with **Markdown** formatting."
     url: "/projects/project1/"

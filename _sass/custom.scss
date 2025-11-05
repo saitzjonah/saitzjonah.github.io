@@ -71,3 +71,9 @@
   flex-direction: column; /* stack results vertically */
   align-items: center;    /* center horizontally */
 }
+
+figcaption {
+  font-family: inherit; /* or specify your main sans-serif font */
+  font-style: normal;   /* remove italics if you prefer */
+  color: var(--global-text-color, #666);
+}
