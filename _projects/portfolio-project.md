@@ -17,8 +17,6 @@ layout: single
 
 ### 1. **Introduction**
 
-What's the perfect first project for my engineering portfolio? One that'll make recruiters ooh and aah and give me a handshake and a 6-figure job on the spot? Frankly, I didn't want to wait around all day to find out. I figured a portfolio project about building a portfolio would suffice.
-
 Over the past weekend, I built this site using GitHub Pages and Jekyll, a static site generator (SSG). My goal was simple: create a professional, navigable, 100% free platform to showcase my projects, technical skills, and creative thinking. 
 
 What started as a straightforward task became an opportunity for me to learn about site structure, theme customization, and deployment workflows, and Git for version control. In this post, I'll walk through design decisions, challenges, and lessons learned along the way.
