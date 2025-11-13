@@ -9,7 +9,7 @@ header:
     actions:
     - label: "About"
       url: "/about/"
-excerpt: "Robotics & Mechatronics Portfolio"
+excerpt: "Electrical Engineering Portfolio"
 intro:
     - excerpt: "Check out my most recent projects!"
 

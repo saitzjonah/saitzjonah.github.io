@@ -23,7 +23,7 @@ What started as a straightforward task became an opportunity for me to learn abo
 
 ### 2. **Choosing the Tools & Stack**
 
-I wanted a portfolio that was lightweight, customizable, low-maintenance, and free to host. I'm not a web developer and have no interest in becoming one, so I was just looking for a stack that would give me full control without unnecessary complexity:
+I wanted a portfolio that was lightweight, customizable, low-maintenance, and free to host. In short, a stack that would give me full control without unnecessary complexity:
 
 * **Jekyll** - A static site generator (SSG) that converts Markdown and HTML templates into a fast, fully functional website. Its simplicity and version-controlled workflow make it ideal for a portfolio. 
 
@@ -58,7 +58,7 @@ With the correct Ruby version active, I installed all required gems for Jekyll a
 
 ### 4. **Customization & Design Process**
 
-Once again, one of the main reasons I chose Jekyll was its ease of customization. I loaded my `saitzjonah.github.io` directory into VS Code and got started. But before making any changes or writing any code, I remembered the words of my freshman year computer science professor: "every 10 minutes of planning you do up front will save you an hour of debugging on the back end." So I closed my laptop and sketched a schematic of my site's structure. 
+The main reasons I chose Jekyll was its ease of customization. I loaded my `saitzjonah.github.io` directory into VS Code and got started.
 
 I settled on a straightforward, browsing-friendly layout:
 * **Home** -> A landing page to introduce who I am, what I do, and display samples of my recent work. 
