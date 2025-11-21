@@ -5,3 +5,20 @@
     object-fit: cover;
     object-position: center;
 }
+
+.page__hero--overlay {
+    height: 480px;
+    overflow: hidden;
+}
+
+.page__hero--overlay .page__hero-image {
+    height: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+@media (max-width: 768px) {
+    .page__hero--overlay {
+        height: 160px;
+    }
+}

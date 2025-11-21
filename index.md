@@ -7,27 +7,30 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/coffee.jpg
   actions:
-    - label: "Download"
-      url: "#test-link"
+    - label: "About"
+      url: "/about"
 excerpt: "Electrical Engineering Portfolio"
+
+intro:
+  - excerpt: "Featured Projects"
 
 feature_row:
   - image_path: /assets/beetle.jpg
     title: "Coming Soon"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    url: "projects/car-project/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/laptop.jpg
     title: "Coming Soon"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    url: "projects/laptop-project/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/spiral.jpg
     title: "Coming Soon"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    url: "projects/spiral-project/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---

@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Jonah Saitz"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : Design Engineering<br>@ Brown University
+  bio              : Electrical Engineering<br>@ Brown University
   location         : "Providence, RI"
   email            :
   links:
@@ -331,3 +331,18 @@ defaults:
       comments: # true
       share: true
       related: true
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
