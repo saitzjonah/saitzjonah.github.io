@@ -4,8 +4,6 @@ permalink: /contact/
 author_profile: true
 classes: wide
 ---
-# Contact
-
 You can reach out using the links below. <br>I'm open to opportunities, collaborations, or questions.
 * Email: [jonah.bellinsaitz@gmail.com](mailto:jonah.bellinsaitz@gmail.com)
 * LinkedIn: [saitzjonah](https://www.linkedin.com/in/saitzjonah)
