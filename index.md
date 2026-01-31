@@ -1,15 +1,12 @@
 ---
-title: "MechE Portfolio"
+title: "Jonah Saitz"
 layout: splash
 permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/coffee.jpg
-  actions:
-    - label: "About"
-      url: "/about"
-excerpt: ""
+excerpt: "Mechanical Engineering Portfolio"
 
 intro:
   - excerpt: "Featured Projects"
