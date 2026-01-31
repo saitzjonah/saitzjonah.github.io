@@ -1,5 +1,5 @@
 ---
-title: "Jonah Saitz"
+title: "Mechanical Engineering Portfolio"
 layout: splash
 permalink: /
 header:
@@ -9,7 +9,7 @@ header:
   actions:
     - label: "About"
       url: "/about"
-excerpt: "Mechanical Engineering Portfolio"
+excerpt: ""
 
 intro:
   - excerpt: "Featured Projects"
@@ -34,5 +34,5 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
-{% include feature_row id="intro" type="center"%}
-{% include feature_row %}
+  {% include feature_row id="intro" type="center" %}
+  {% include feature_row %}

@@ -6,17 +6,20 @@
     object-position: center;
 }
 
+// set a fixed height for pages with hero images and overlay text
 .page__hero--overlay {
     height: 480px;
     overflow: hidden;
 }
 
+// make hero background images fill the hero area and stay centered
 .page__hero--overlay .page__hero-image {
     height: 100%;
     background-size: cover !important;
     background-position: center !important;
 }
 
+// shrink hero image height on tablets and small screens
 @media (max-width: 768px) {
     .page__hero--overlay {
         height: 160px;

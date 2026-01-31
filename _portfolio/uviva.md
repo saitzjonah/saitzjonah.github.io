@@ -4,7 +4,7 @@ permalink: /projects/uviva-project/
 author_profile: true
 classes: wide
 title: UViva
-excerpt: A wearable device that monitors ultraviolet (UV) exposure and hydration.
+excerpt: Wearable UV and hydration tracker
 header:
   overlay_image: /assets/anderson_uviva.png
   teaser: /assets/anderson_uviva.png
