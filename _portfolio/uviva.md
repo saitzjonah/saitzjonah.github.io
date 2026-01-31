@@ -19,7 +19,7 @@ Outdoor workers face significant risks from dehydration and ultraviolet (UV) ove
 
 Outdoor workers were chosen as the target group for this project, as they are both an at-risk and often overlooked group. In fact, occupational sun exposure increases the risk of non-melanoma skin cancer (NMSC) by 60% for outdoor workers. This cancer is directly linked to excessive UV exposure. Tracking this exposure over time would provide valuable health data to workers and employers alike.
 
-Additionally, outdoor workers are at an increased risk for heatstroke and kidnesy stress. Tracking hydration levels in the short-term can help keep workers hydrated and energized, boosting physical and intellectual productivity over the course of the workday. Long-term tracking of hydration could potentially help workers avoid illnesses associated with chronic dehydration.
+Additionally, outdoor workers are at an increased risk for heatstroke and kidney stress. Tracking hydration levels in the short-term can help keep workers hydrated and energized, boosting physical and intellectual productivity over the course of the workday. Long-term tracking of hydration could potentially help workers avoid illnesses associated with chronic dehydration.
 
 Numerous UV trackers and hydration sensors have already been brought to market, constituting the precedent work that informed this project. Notably, the Sun-A-Wear UV Tracker is a solar-powered portable sensor that sends UV exposure data to an app in real time. Also, the Hydration Patch is a battery-free, capacitance-based skin hydration sensor that also sends data to an app. Notably, few products on the market effectively combine UV tracking with hydration sensing, which represents an area for continued innovation.
 
@@ -46,21 +46,21 @@ Given the stated project goals of affordability and practicality, UViva was desi
 ![Sensors](/assets/images/sensors_uviva.png)
 <sub>Figure 2</sub>
 
-* The Seeed Studio XIAO ESP32-C3 was chosen as the microcontroller for UViva due to its small size and wifi capabilities. For interested readers, the ESP32-C3 Series datasheet is linked [here](/assets/esp32-c3_datasheet.pdf).
+* The Seeed Studio XIAO ESP32-C3 was chosen as the microcontroller for UViva due to its small size and Wi-Fi capabilities. For interested readers, the ESP32-C3 Series datasheet is linked [here](/assets/esp32-c3_datasheet.pdf).
 * The GUVA-S12SD sensor was chosen as the UV sensor for UViva due to its ubiquity and affordability, despite its limited responsivity and precision. The GUVA-S12SD datasheet is linked [here](/assets/1918guva.pdf).
 * No dedicated sensor was used for the capacitance sensor for the present wearable device model, due to space constraints. Instead, a small sheet of aluminum was used to contact the skin and send approximate skin capacitance values to the ESP32-C3.
-* Finally, the wearable device used a standard a 3.7V, 1200 mAh lithium ion polymer battery, the datasheet of which is linked [here](/assets/lipo-datasheet.pdf).
+* Finally, the wearable device used a standard 3.7V, 1200 mAh lithium-ion polymer battery, the datasheet of which is linked [here](/assets/lipo-datasheet.pdf).
 
 ### User Interface (UI)
 
-UViva solicited feedback on design and functionality from outdoor workers in the form of a survey. Survey respondants showed interest in the product, and indicated that a wristband was their preferred form factor, and that comfort, durability, and subtlety were their preferred attributes. Design was undertaken with these constraints in mind.
+UViva solicited feedback on design and functionality from outdoor workers in the form of a survey. Survey respondents showed interest in the product, and indicated that a wristband was their preferred form factor, and that comfort, durability, and subtlety were their preferred attributes. Design was undertaken with these constraints in mind.
 
 ![Website](/assets/images/website_uviva.png)
 <sub>Figure 3</sub>
 
-UViva also incorporated a website to track and visualize UV exposure and hydration data, as seen in Figure 3. Data collected by the wearable device can be sent to the website in real time, using the ESP32-C3's wifi capabilities. Though simple in its present form, this website has numerous use cases and areas for growth. 
+UViva also incorporated a website to track and visualize UV exposure and hydration data, as seen in Figure 3. Data collected by the wearable device can be sent to the website in real time, using the ESP32-C3's Wi-Fi capabilities. Though simple in its present form, this website has numerous use cases and areas for growth. 
 
-As a first use case, the website allows outdoor workers to monitor their own UV exposure and hydration. For outdoor workers on the job, it may be more convenient to access this data on mobile. The present for of the site supports mobile viewing, though in the future, an app may prove more convenient. 
+As a first use case, the website allows outdoor workers to monitor their own UV exposure and hydration. For outdoor workers on the job, it may be more convenient to access this data on mobile. The present form of the site supports mobile viewing, though in the future, an app may prove more convenient. 
 
 The second, and likely more valuable use case, is an expanded dashboard for tracking company-wide data. Company leadership can use this data to track the well-being of their workforce and inform insurance negotiations.
 
@@ -96,18 +96,26 @@ Figure 6 shows the response of skin capacitance to hydration: an increase in cap
 
 UViva succeeded as a proof of concept under time and budgetary constraints. The wearable device incorporated user survey feedback diligently, by designing a comfortable, durable, and subtle wristband that outdoor workers would be able to wear without annoyance or distraction. Furthermore, the wearable design is snug, avoiding the dangling jewelry restriction set by OSHA in construction and other hazardous outdoor work environments.
 
-The device uses affordable sensors and simple design, making it easy to scale and manufacture in the future. The affordability factor also makes UViva accessible to a wide range of emplopyers, from nationwide construction companies to local landscaping crews.
+The device uses affordable sensors and simple design, making it easy to scale and manufacture in the future. The affordability factor also makes UViva accessible to a wide range of employers, from nationwide construction companies to local landscaping crews.
 
-And finally, the design is ethical, featuring non-invasive sensive that does not take biological samples.
+And finally, the design is ethical, featuring non-invasive sensors that do not take biological samples.
 
 ## Societal Considerations
 
 UViva aids the mission of global occupational health, by offering a novel method of preventative care for high-risk outdoor workers. Furthermore, it promotes occupational equity, by supporting consistent sun protection across job sites, regardless of individual awareness or behavior.
 
-UViva also has the potential to lower long-term healthcare costs, as skin cancer treatment for outdoor workers is an expensive yet reduceable burden on the healthcare system. Additionally, documented enforcement of safety policies, backed by data, can potentially lower costs for corporate insurance premiums.
+UViva also has the potential to lower long-term healthcare costs, as skin cancer treatment for outdoor workers is an expensive yet reducible burden on the healthcare system. Additionally, documented enforcement of safety policies, backed by data, can potentially lower costs for corporate insurance premiums.
 
 ## Future design changes
 
-UViva's initial prototype and feedback indicates numerous areas for design changes and improvements. The UI could be improved by adding sunscreen reapplication or hydration reminders. Additional changes include enabling long-term cumulative exposure logging, either onboard or cloud-based, developing a proprietary software dashboard for supervisors to monitor workforce health data, improving hydration data accuracy with a miniaturized bioimpedance sensor, and finally, optimizing and scaling manufacturing processes with a printed circuitboard (PCB), design for manufacturability (DFM), and injection molding.
+UViva's initial prototype and feedback indicate numerous areas for design changes and improvements. The UI could be improved by adding sunscreen reapplication or hydration reminders. Additional changes include enabling long-term cumulative exposure logging, either onboard or cloud-based, developing a proprietary software dashboard for supervisors to monitor workforce health data, improving hydration data accuracy with a miniaturized bioimpedance sensor, and finally, optimizing and scaling manufacturing processes with a printed circuit board (PCB), design for manufacturability (DFM), and injection molding.
 
 ![Render](/assets/finalrender_uviva.png)
+
+## Contributors
+
+* Leah Derenge
+* Mary Gueye
+* Noah Purrow
+* Anderson Todd
+* Ruth Villicana
