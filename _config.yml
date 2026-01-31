@@ -21,7 +21,7 @@ title                    : "Jonah Saitz"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jonah Saitz"
-description              : "Jonah Saitz Electrical Engineering, Robotics, Mechatronics Portfolio"
+description              : "Jonah Saitz Mechanical Engineering, Robotics, Mechatronics Portfolio"
 url                      : "https://saitzjonah.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Jonah Saitz"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : Design Engineering<br>(Electrical Focus)<br>@ Brown University
+  bio              : Design Engineering<br>@ Brown University
   location         : "Providence, RI"
   email            :
   links:
@@ -271,7 +271,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-seo-tag
+  # - jekyll-seo-tag (resolve Dependency issue)
   - jekyll-sitemap
 
 # mimic GitHub Pages with --safe

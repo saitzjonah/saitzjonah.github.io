@@ -9,16 +9,16 @@ header:
   actions:
     - label: "About"
       url: "/about"
-excerpt: "Electrical Engineering Portfolio"
+excerpt: "Mechanical Engineering Portfolio"
 
 intro:
   - excerpt: "Featured Projects"
 
 feature_row:
-  - image_path: /assets/beetle.jpg
-    title: "Coming Soon"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "projects/car-project/"
+  - image_path: /assets/anderson_uviva.png
+    title: "UViva"
+    excerpt: "A wearable device designed to monitor ultraviolet (UV) exposure and hydration for outdoor workers."
+    url: "projects/uviva-project/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/laptop.jpg
