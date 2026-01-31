@@ -1,5 +1,5 @@
 ---
-title: "Mechanical Engineering Portfolio"
+title: "MechE Portfolio"
 layout: splash
 permalink: /
 header:
