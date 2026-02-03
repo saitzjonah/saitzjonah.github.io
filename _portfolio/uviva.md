@@ -17,6 +17,8 @@ UViva is a low-cost wearable device that monitors UV exposure and relative hydra
 
 ![Render](/assets/finalrender_uviva.png)
 
+<sub>**Figure 1:** Photograph of UViva final prototype.</sub>
+
 ### Metadata
 * **Role:** Mechanical / Systems Engineer - focused on sensor integration, mechanical validation, 3D printing, and testing.
 * **Timeline:** Fall 2025 (1 semester)
@@ -27,6 +29,7 @@ UViva is a low-cost wearable device that monitors UV exposure and relative hydra
 
 ![Iterations](/assets/images/iterations_uviva.png)
 
+<sub>**Figure 2:** UViva iterations from September-December 2025.</sub>
 
 ### My Contributions
 * Measured microcontroller and sensors with calipers to determine minimum enclosure dimensions to accommodate components.
@@ -39,6 +42,7 @@ UViva is a low-cost wearable device that monitors UV exposure and relative hydra
 
 ![Sensors](/assets/images/sensors_uviva.png)
 
+<sub>**Figure 3:** Electronics used in UViva: ESP32-C3 (left), GUVA-S12SD (top right), lithium-ion polymer battery (bottom right).</sub>
 
 ### Challenges
 * UV accuracy limitations: The low-cost GUVA-S12SD sensor had poor responsivity in the UV range most associated with skin cancer (280-320 nm), leading to noisy and imprecise readings and an error rate of 37%.
@@ -50,6 +54,8 @@ UViva is a low-cost wearable device that monitors UV exposure and relative hydra
 
 ![Responsivity](/assets/images/responsivity_uviva.png)
 
+<sub>**Figure 4:** Graph of GUVA-S12SD responsivity given incident wavelength.</sub>
+
 ### Solutions
 * Compared UV readings against weather station UV indices to calculate measurement error.
 * Iterated enclosure design to ensure sensor fit, consistent skin contact for the hydration sensor, and unobstructed UV readings.
@@ -59,6 +65,8 @@ UViva is a low-cost wearable device that monitors UV exposure and relative hydra
 <br>
 
 ![Measurements](/assets/images/measurements_uviva.png)
+
+<sub>**Figure 5:** Table and graph of measured UV Indices from GUVA-S12SD versus expected UV Indices from local weather data.</sub>
 
 ### Tradeoffs
 * Selected inexpensive, widely available sensors to keep the device affordable and scalable.
@@ -70,6 +78,8 @@ UViva is a low-cost wearable device that monitors UV exposure and relative hydra
 
 ![Capacitance](/assets/images/capacitance_uviva.png)
 
+<sub>**Figure 6:** Graph of skin capacitance output over time after drinking electrolyte beverage.</sub>
+
 ### Evaluation 
 * Built a functional end-to-end system featuring wearable hardware, embedded electronics, and a live web dashboard.
 * Incorporated survey feedback from outdoor workers to prioritize comfort, durability, and subtlety. 
@@ -80,6 +90,8 @@ UViva is a low-cost wearable device that monitors UV exposure and relative hydra
 <br>
 
 ![Website](/assets/images/website_uviva.png)
+
+<sub>**Figure 7:** UViva web dashboard proof-of-concept.</sub>
 
 ### Future Work
 * Improve sensing accuracy by replacing aluminum touch pad with a miniaturized bioimpedance sensor, and upgrading to a UV sensor with stronger UVB responsivity. 
