@@ -34,10 +34,14 @@ UViva was designed iteratively over the course of a single semester, with the ma
 ![Iterations](/assets/images/iterations_uviva.png)
 <sub>Figure 1</sub>
 
-The most visible aspect of UViva is the wearable itself, meaning that the housing design had to be both functional and attractive. 
-Physical measurements were taken of the microcontroller, sensors, and battery to determine size constraints for the housing. The housing was designed in Onshape, with a larger design at first which was subsequently downsized and refined, as seen in Figure 1.
+UViva was designed to be both functional and attractive. Measurements were taken of the microcontroller, sensors, and battery to determine enclosure dimensions. The enclosure was designed in Onshape, chosen because it’s lightweight and easy to collaborate with. The enclosure went through 4 major iterations, a top view of which is depicted in Figure 1. 
 
-Two additional design constraints were the hole in the top of the wearable device, allowing for sunlight to reach the UV sensor, and a slit in the bottom of the wearable device, where a strip of metal contacts the skin, allowing for hydration data to be recorded.
+Each of these iterations featured major additions or modifications that improved the final design: 
+* Added internal pin holes to attach wristband straps. 
+* Reduced size of opening for UV sensor.
+* Increased height to fit rechargeable battery
+* Added opening for metal contacts of hydration sensor.
+* Added USB-C charging port. 
 
 ### Electronics
 
