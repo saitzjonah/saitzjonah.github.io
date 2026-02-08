@@ -6,8 +6,8 @@ classes: wide
 title: UViva
 excerpt: Wearable UV and hydration tracker
 header:
-  overlay_image: /assets/anderson_uviva.png
-  teaser: /assets/anderson_uviva.png
+  overlay_image: /assets/uviva/images/anderson_uviva.png
+  teaser: /assets/uviva/images/anderson_uviva.png
 date: 2026-01-30
 ---
 
@@ -15,7 +15,7 @@ date: 2026-01-30
 
 UViva is a low-cost wearable device that monitors UV exposure and relative hydration for outdoor workers, designed, prototyped, and tested over one semester at Brown University. The project emphasized the tradeoffs between sensing accuracy, cost, comfort, and manufacturability inherent to engineering design.
 
-![Render](/assets/finalrender_uviva.png)
+![Render](/assets/uviva/images/finalrender_uviva.png)
 
 <sub>**Figure 1:** Photograph of UViva final prototype.</sub>
 
@@ -27,7 +27,7 @@ UViva is a low-cost wearable device that monitors UV exposure and relative hydra
 
 <br>
 
-![Iterations](/assets/images/iterations_uviva.png)
+![Iterations](/assets/uviva/images/iterations_uviva.png)
 
 <sub>**Figure 2:** UViva iterations from September-December 2025.</sub>
 
@@ -40,7 +40,7 @@ UViva is a low-cost wearable device that monitors UV exposure and relative hydra
 
 <br>
 
-![Sensors](/assets/images/sensors_uviva.png)
+![Sensors](/assets/uviva/images/sensors_uviva.png)
 
 <sub>**Figure 3:** Electronics used in UViva: ESP32-C3 (left), GUVA-S12SD (top right), lithium-ion polymer battery (bottom right).</sub>
 
@@ -52,7 +52,7 @@ UViva is a low-cost wearable device that monitors UV exposure and relative hydra
 
 <br>
 
-![Responsivity](/assets/images/responsivity_uviva.png)
+![Responsivity](/assets/uviva/images/responsivity_uviva.png)
 
 <sub>**Figure 4:** Graph of GUVA-S12SD responsivity given incident wavelength.</sub>
 
@@ -64,7 +64,7 @@ UViva is a low-cost wearable device that monitors UV exposure and relative hydra
 
 <br>
 
-![Measurements](/assets/images/measurements_uviva.png)
+![Measurements](/assets/uviva/images/measurements_uviva.png)
 
 <sub>**Figure 5:** Table and graph of measured UV Indices from GUVA-S12SD versus expected UV Indices from local weather data.</sub>
 
@@ -76,7 +76,7 @@ UViva is a low-cost wearable device that monitors UV exposure and relative hydra
 
 <br>
 
-![Capacitance](/assets/images/capacitance_uviva.png)
+![Capacitance](/assets/uviva/images/capacitance_uviva.png)
 
 <sub>**Figure 6:** Graph of skin capacitance output over time after drinking electrolyte beverage.</sub>
 
@@ -89,7 +89,7 @@ UViva is a low-cost wearable device that monitors UV exposure and relative hydra
 
 <br>
 
-![Website](/assets/images/website_uviva.png)
+![Website](/assets/uviva/images/website_uviva.png)
 
 <sub>**Figure 7:** UViva web dashboard proof-of-concept.</sub>
 

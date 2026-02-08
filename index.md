@@ -12,16 +12,16 @@ intro:
   - excerpt: "Featured Projects"
 
 feature_row:
-  - image_path: /assets/anderson_uviva.png
+  - image_path: /assets/uviva/images/anderson_uviva.png
     title: "UViva"
     excerpt: "A wearable device designed to monitor ultraviolet (UV) exposure and hydration for outdoor workers."
     url: "projects/uviva-project/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/laptop.jpg
-    title: "Coming Soon"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "projects/laptop-project/"
+  - image_path: /assets/arduino.jpeg
+    title: "Arduino Projects"
+    excerpt: "An assortment of entertaining and occasionally useful weekend builds, with instructions."
+    url: "projects/arduino-projects/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/spiral.jpg
