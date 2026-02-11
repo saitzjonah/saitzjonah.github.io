@@ -8,7 +8,7 @@ excerpt: Wearable UV and hydration tracker
 header:
   overlay_image: /assets/uviva/images/anderson_uviva.png
   teaser: /assets/anderson_uviva.png
-date: 2026-02-02
+date: 2026-01-30
 ---
 
 ## Abstract

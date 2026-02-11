@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/arduino.jpeg
   teaser: /assets/arduino.jpeg
 excerpt: Weekend DIY builds with instructions
-date: 2025-01-23
+date: 2026-01-23
 ---
 
 [7-Segment Display Valentine](/arduino-projects/valentine)
