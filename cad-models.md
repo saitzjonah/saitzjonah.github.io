@@ -1,8 +1,8 @@
 ---
-title: Projects
+title: CAD Models
 layout: collection
-collection: portfolio
-permalink: /projects/
+collection: cad_models
+permalink: /cad-models/
 entries_layout: grid
 sort_by: date
 sort_order: reverse

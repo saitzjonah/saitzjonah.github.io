@@ -1,12 +1,13 @@
 ---
 layout: single
 title: 7-Segment Display Valentine
-permalink: /arduino-projects/valentine
+permalink: /side-projects/arduino-valentine/
 author_profile: true
 classes: wide
+excerpt: ""
 header:
-  overlay_image: /assets/arduino.jpeg
-  teaser: /assets/arduino.jpeg
+  overlay_image: /assets/arduino-valentine/arduino.jpeg
+  teaser: /assets/arduino-valentine/arduino.jpeg
 date: 2026-02-14
 ---
 ### Materials 
@@ -20,14 +21,14 @@ date: 2026-02-14
 <summary><strong>Show video</strong></summary>
 
 <video controls width="600">
-    <source src="arduino-valentine.mp4" type="video/mp4">
+    <source src="/assets/arduino-valentine/arduino-valentine.mp4" type="video/mp4">
     
     <!-- Optional: Add a fallback for older browsers -->
     Your browser does not support the video tag.
 </video>
 <br>
 </details>
-<a href="arduino-valentine.mp4" download>Download video</a>
+<a href="/assets/arduino-valentine/arduino-valentine.mp4" download>Download video</a>
 
 ### Code
 <details>
@@ -122,8 +123,8 @@ date: 2026-02-14
   }
 </code></pre>
 </details>
-<a href="seven-segment-four.ino" download>Download code</a>
+<a href="/assets/arduino-valentine/seven-segment-four.ino" download>Download code</a>
 
 ### Resources
-* [7-segment display datasheet (5641AS)](datasheet-5641as.pdf)
+* [7-segment display datasheet (5641AS)](/assets/arduino-valentine/datasheet-5641as.pdf)
 * [How to Use a 7-Segment Display with Arduino (arduinointro.com)](https://arduinointro.com/articles/projects/how-to-use-a-7-segment-display-with-arduino-a-complete-beginners-guide)

@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /projects/uviva-project/
+permalink: /portfolio/uviva/
 author_profile: true
 classes: wide
 title: UViva

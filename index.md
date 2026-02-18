@@ -9,25 +9,25 @@ header:
 excerpt: "Mechanical Engineering Portfolio"
 
 intro:
-  - excerpt: "Featured Projects"
+  - excerpt: "Featured Work"
 
 feature_row:
   - image_path: /assets/uviva/images/anderson_uviva.png
     title: "UViva"
     excerpt: "A wearable device designed to monitor ultraviolet (UV) exposure and hydration for outdoor workers."
-    url: "projects/uviva-project/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/arduino.jpeg
-    title: "Arduino Projects"
-    excerpt: "An assortment of entertaining and occasionally useful weekend builds, with instructions."
-    url: "projects/arduino-projects/"
+    url: "portfolio/uviva/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/spiral.jpg
-    title: "Coming Soon"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "projects/spiral-project/"
+    title: "CAD Models"
+    excerpt: "Objects, mechanisms, and assemblies, designed and ready to print."
+    url: "cad-models"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/arduino-valentine/arduino.jpeg
+    title: "Side Projects"
+    excerpt: "An assortment of entertaining and occasionally useful weekend builds, with instructions."
+    url: "side-projects"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
